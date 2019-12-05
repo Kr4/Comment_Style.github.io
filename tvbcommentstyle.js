@@ -62,6 +62,6 @@ var jsCommentPages = function(){
 		  	$activePage = $("#" + $activeTab.attr("id") + "-page");
 		  	$activePage.show();
 		};
-	$("head").append("<link id='js-comments-pages-styles' rel='stylesheet' type='text/css' href='https://www.dropbox.com/s/p2s7fl9zkwx4v3i/tvbcommentstyle.css'/>");
+	$("head").append("<link id='js-comments-pages-styles' rel='stylesheet' type='text/css' href='https://raw.githubusercontent.com/Kr4/Comment_Style.github.io/master/tvbcommentstyle.css'/>");
   	$("document").ready(init);
 }();
